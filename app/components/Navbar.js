@@ -1,7 +1,11 @@
+"use client";
 import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
+// import { useUser } from "@clerk/nextjs";
 
 const Navbar = () => {
+  // const user = useUser();
+  // console.log(user.user?.id)
   return (
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">

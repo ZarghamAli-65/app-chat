@@ -3,19 +3,19 @@ import React from "react";
 
 function Main() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-500 text-black">
       {/* Hero Section */}
       <section
         className="bg-cover bg-center h-screen"
         style={{ backgroundImage: "url('/images/chat-background.jpg')" }}
       >
         <div className="container mx-auto flex items-center justify-center h-full">
-          <div className="text-center text-white">
+          <div className="text-center text-black">
             <h1 className="text-5xl font-bold mb-4">Welcome to Z-Chat</h1>
             <p className="text-lg mb-8">
               Connect with friends and family effortlessly.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button className="bg-blue-500 hover:bg-blue-700 text-gray-300 font-bold py-2 px-4 rounded">
               Get Started
             </button>
           </div>
@@ -58,9 +58,9 @@ function Main() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 11.414V8m0 0h6"
                 ></path>
               </svg>
@@ -78,9 +78,9 @@ function Main() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M17 14v6m-3-3c0 1.657-4.082 3-7.5 3S3 20.657 3 19a2 2 0 012-2h12a2 2 0 012 2v-6a2 2 0 012-2h10M1 8a2 2 0 012-2h2m3 12a2 2 0 012-2h6a2 2 0 012 2v2a2 2 0 01-2 2H9a2 2 0 01-2-2v-2z"
                 ></path>
               </svg>
@@ -111,7 +111,7 @@ function Main() {
       {/* Footer (Optional) */}
       <footer className="bg-gray-800 text-white py-4">
         <div className="container mx-auto text-center">
-          <p>&copy; 2023 Z-Chat. All rights reserved.</p>
+          <p>&copy; 2025 Z-Chat. All rights reserved.</p>
         </div>
       </footer>
     </div>
